@@ -36,3 +36,7 @@ Use the original repository's `README.md`, `outputs/p1/experiment_protocol.md`, 
 
 ## Next research steps
 Prioritise a random-k baseline and a matched-changed-count perturbation analysis; repeat the protocol over multiple group-aware splits, more seeds, and external/temporal datasets; then separately assess calibration, fairness, and recourse under appropriate data and governance controls.
+
+
+## Revised IEEE companion deliverables (17 November 2026)
+The initial document and deck were replaced by a five-page IEEEtran conference-style two-column manuscript and a 19-slide 16:9 presentation. The manuscript source is LaTeX using IEEEtran; the deck has an editable PPTX and PDF companion. Numerical claims were rechecked against P1 `metrics_summary.csv`, P2 `rank_stability_summary.csv`, `attribution_stability_summary.csv`, `fidelity_summary.csv`, and `outputs/p2/handover.md`. The revised presentation uses larger data visualisations and the three pre-specified borrower examples. The perturbation result is explicitly qualified because high/low arms change unequal feature counts and have low-arm no-op cases. Author names/affiliations remain pending project-team confirmation.
