@@ -1,0 +1,74 @@
+{
+  "id_column": "borrower_id",
+  "target": "SeriousDlqin2yrs",
+  "features": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "DebtRatio",
+    "MonthlyIncome",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberOfTimes90DaysLate",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "NumberOfDependents"
+  ],
+  "definitions": {
+    "SeriousDlqin2yrs": {
+      "description": "Person experienced 90 days past due delinquency or worse",
+      "type": "Y/N"
+    },
+    "RevolvingUtilizationOfUnsecuredLines": {
+      "description": "Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits",
+      "type": "percentage"
+    },
+    "age": {
+      "description": "Age of borrower in years",
+      "type": "integer"
+    },
+    "NumberOfTime30-59DaysPastDueNotWorse": {
+      "description": "Number of times borrower has been 30-59 days past due but no worse in the last 2 years.",
+      "type": "integer"
+    },
+    "DebtRatio": {
+      "description": "Monthly debt payments, alimony,living costs divided by monthy gross income",
+      "type": "percentage"
+    },
+    "MonthlyIncome": {
+      "description": "Monthly income",
+      "type": "real"
+    },
+    "NumberOfOpenCreditLinesAndLoans": {
+      "description": "Number of Open loans (installment like car loan or mortgage) and Lines of credit (e.g. credit cards)",
+      "type": "integer"
+    },
+    "NumberOfTimes90DaysLate": {
+      "description": "Number of times borrower has been 90 days or more past due.",
+      "type": "integer"
+    },
+    "NumberRealEstateLoansOrLines": {
+      "description": "Number of mortgage and real estate loans including home equity lines of credit",
+      "type": "integer"
+    },
+    "NumberOfTime60-89DaysPastDueNotWorse": {
+      "description": "Number of times borrower has been 60-89 days past due but no worse in the last 2 years.",
+      "type": "integer"
+    },
+    "NumberOfDependents": {
+      "description": "Number of dependents in family excluding themselves (spouse, children etc.)",
+      "type": "integer"
+    }
+  },
+  "imputation_medians": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.15574503,
+    "age": 52.0,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0.0,
+    "DebtRatio": 0.366962025,
+    "MonthlyIncome": 5400.0,
+    "NumberOfOpenCreditLinesAndLoans": 8.0,
+    "NumberOfTimes90DaysLate": 0.0,
+    "NumberRealEstateLoansOrLines": 1.0,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0.0,
+    "NumberOfDependents": 0.0
+  }
+}

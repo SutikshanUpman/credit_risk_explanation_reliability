@@ -1,0 +1,11 @@
+fidelity done: unweighted_seed11
+fidelity done: unweighted_seed22
+fidelity done: unweighted_seed33
+fidelity done: unweighted_seed44
+fidelity done: unweighted_seed55
+fidelity done: weighted_seed11
+fidelity done: weighted_seed22
+fidelity done: weighted_seed33
+fidelity done: weighted_seed44
+fidelity done: weighted_seed55
+analysis done

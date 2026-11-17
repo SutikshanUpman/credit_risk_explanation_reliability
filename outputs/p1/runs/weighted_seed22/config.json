@@ -1,0 +1,31 @@
+{
+  "run_id": "weighted_seed22",
+  "condition": "weighted",
+  "seed": 22,
+  "model_settings": {
+    "objective": "binary:logistic",
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "device": "cpu",
+    "n_jobs": 4,
+    "min_child_weight": 1,
+    "gamma": 0,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "max_bin": 256,
+    "eval_metric": "logloss",
+    "verbosity": 0,
+    "base_score": 0.5,
+    "random_state": 22,
+    "scale_pos_weight": 13.933042937149969
+  },
+  "training_seconds": 1.4878565999679267,
+  "threshold": 0.5,
+  "feature_schema": "../../feature_schema.json",
+  "test_ids": "../../splits/test_ids.csv",
+  "training_source_sha256": "1bd46da486a5708c58c7b01a034fae2a13b327f6f7b62ea7ba4fe3b5824b24ac"
+}

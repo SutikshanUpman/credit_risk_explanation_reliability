@@ -1,0 +1,73 @@
+PASS: P1 artifact hashes unchanged  [65 files]
+PASS: training medians in schema equal medians of X_train
+PASS: cohort = all 30,013 held-out rows in saved order
+PASS: background: 100 unique training rows, none from the test cohort
+PASS: background reproducible from seed 2026
+PASS: unweighted_seed11: ids/shape/finite
+PASS: unweighted_seed11: SHAP additivity on raw margin  [max error 6.44e-06]
+PASS: unweighted_seed11: native contribution additivity  [max error 7.15e-06]
+PASS: unweighted_seed11: ids and probabilities equal P1 predictions
+PASS: unweighted_seed11: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: unweighted_seed22: ids/shape/finite
+PASS: unweighted_seed22: SHAP additivity on raw margin  [max error 6.53e-06]
+PASS: unweighted_seed22: native contribution additivity  [max error 7.63e-06]
+PASS: unweighted_seed22: ids and probabilities equal P1 predictions
+PASS: unweighted_seed22: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: unweighted_seed33: ids/shape/finite
+PASS: unweighted_seed33: SHAP additivity on raw margin  [max error 5.51e-06]
+PASS: unweighted_seed33: native contribution additivity  [max error 5.25e-06]
+PASS: unweighted_seed33: ids and probabilities equal P1 predictions
+PASS: unweighted_seed33: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: unweighted_seed44: ids/shape/finite
+PASS: unweighted_seed44: SHAP additivity on raw margin  [max error 6.26e-06]
+PASS: unweighted_seed44: native contribution additivity  [max error 5.25e-06]
+PASS: unweighted_seed44: ids and probabilities equal P1 predictions
+PASS: unweighted_seed44: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: unweighted_seed55: ids/shape/finite
+PASS: unweighted_seed55: SHAP additivity on raw margin  [max error 7.44e-06]
+PASS: unweighted_seed55: native contribution additivity  [max error 6.68e-06]
+PASS: unweighted_seed55: ids and probabilities equal P1 predictions
+PASS: unweighted_seed55: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: weighted_seed11: ids/shape/finite
+PASS: weighted_seed11: SHAP additivity on raw margin  [max error 3.77e-06]
+PASS: weighted_seed11: native contribution additivity  [max error 4.29e-06]
+PASS: weighted_seed11: ids and probabilities equal P1 predictions
+PASS: weighted_seed11: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: weighted_seed22: ids/shape/finite
+PASS: weighted_seed22: SHAP additivity on raw margin  [max error 4.27e-06]
+PASS: weighted_seed22: native contribution additivity  [max error 5.01e-06]
+PASS: weighted_seed22: ids and probabilities equal P1 predictions
+PASS: weighted_seed22: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: weighted_seed33: ids/shape/finite
+PASS: weighted_seed33: SHAP additivity on raw margin  [max error 3.78e-06]
+PASS: weighted_seed33: native contribution additivity  [max error 4.29e-06]
+PASS: weighted_seed33: ids and probabilities equal P1 predictions
+PASS: weighted_seed33: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: weighted_seed44: ids/shape/finite
+PASS: weighted_seed44: SHAP additivity on raw margin  [max error 4.18e-06]
+PASS: weighted_seed44: native contribution additivity  [max error 4.29e-06]
+PASS: weighted_seed44: ids and probabilities equal P1 predictions
+PASS: weighted_seed44: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: weighted_seed55: ids/shape/finite
+PASS: weighted_seed55: SHAP additivity on raw margin  [max error 2.98e-06]
+PASS: weighted_seed55: native contribution additivity  [max error 2.86e-06]
+PASS: weighted_seed55: ids and probabilities equal P1 predictions
+PASS: weighted_seed55: recomputed SHAP for 300 random rows matches saved  [max diff 0.00e+00]
+PASS: rank table size = 25 comparisons x 30,013 borrowers
+PASS: comparison families: 20 within (10 per condition) + 5 between
+PASS: 3,000 random rank rows recomputed independently (Spearman, top-3, top-5)  [{'spearman': np.float64(3.3306690738754696e-16), 'top3': 0.0, 'top5': 0.0}]
+PASS: Spearman and agreement values within valid ranges
+PASS: attribution table size = 30,013 x 10 features x 2 conditions
+PASS: 1,500 random attribution rows recomputed independently  [max diff 2.22e-16]
+PASS: fractions of signs sum to 1
+PASS: weighting table size = 5 seeds x 30,013 x 10
+PASS: diff = weighted - unweighted and abs diff consistent
+PASS: fidelity table size = 10 runs x 2 k x 30,013
+PASS: fidelity recomputed independently for 200 borrowers x 10 runs x 2 k x 2 arms  [max diff 2.94e-08]
+PASS: no-op flag equals (n_changed == 0)
+PASS: diff = high - low
+PASS: overlap list has 99 test rows
+PASS: all expected P2 deliverables exist  [[]]
+PASS: protocol file is older than every explanation array (mtime)
+
+All checks passed.

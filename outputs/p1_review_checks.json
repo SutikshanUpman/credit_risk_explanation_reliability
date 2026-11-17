@@ -1,0 +1,74 @@
+{
+  "review_date_local": "2026-11-11",
+  "post_imputation_shared_profiles": 55,
+  "train_rows_in_shared_profiles": 96,
+  "test_rows_in_shared_profiles": 99,
+  "constant_prevalence_reference": {
+    "positive_probability": 0.06696558793869335,
+    "test_brier_score": 0.061937594540264325
+  },
+  "native_treeshap_smoke": [
+    {
+      "run_id": "unweighted_seed11",
+      "rows": 8,
+      "max_additivity_error": 5.9604644775390625e-06
+    },
+    {
+      "run_id": "unweighted_seed22",
+      "rows": 8,
+      "max_additivity_error": 3.814697265625e-06
+    },
+    {
+      "run_id": "unweighted_seed33",
+      "rows": 8,
+      "max_additivity_error": 2.384185791015625e-06
+    },
+    {
+      "run_id": "unweighted_seed44",
+      "rows": 8,
+      "max_additivity_error": 1.9073486328125e-06
+    },
+    {
+      "run_id": "unweighted_seed55",
+      "rows": 8,
+      "max_additivity_error": 2.86102294921875e-06
+    },
+    {
+      "run_id": "weighted_seed11",
+      "rows": 8,
+      "max_additivity_error": 5.960464477539062e-07
+    },
+    {
+      "run_id": "weighted_seed22",
+      "rows": 8,
+      "max_additivity_error": 1.1920928955078125e-06
+    },
+    {
+      "run_id": "weighted_seed33",
+      "rows": 8,
+      "max_additivity_error": 1.3113021850585938e-06
+    },
+    {
+      "run_id": "weighted_seed44",
+      "rows": 8,
+      "max_additivity_error": 7.152557373046875e-07
+    },
+    {
+      "run_id": "weighted_seed55",
+      "rows": 8,
+      "max_additivity_error": 7.152557373046875e-07
+    }
+  ],
+  "fresh_fit_reproduction": [
+    {
+      "run_id": "unweighted_seed11",
+      "max_probability_difference": 0.0
+    },
+    {
+      "run_id": "weighted_seed11",
+      "max_probability_difference": 0.0
+    }
+  ],
+  "effective_configurations_checked": 10,
+  "status": "passed"
+}

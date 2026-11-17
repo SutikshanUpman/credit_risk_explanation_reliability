@@ -1,0 +1,13 @@
+# Tested with Python 3.13 on Windows. Pin transitive dependencies for reproduction.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+xgboost==3.0.2
+joblib==1.5.1
+xlrd==2.0.2
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+threadpoolctl==3.6.0
+six==1.17.0

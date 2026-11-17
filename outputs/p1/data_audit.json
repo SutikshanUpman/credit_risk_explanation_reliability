@@ -1,0 +1,175 @@
+{
+  "rows": 150000,
+  "predictors": 10,
+  "dtypes": {
+    "RevolvingUtilizationOfUnsecuredLines": "float64",
+    "age": "int64",
+    "NumberOfTime30-59DaysPastDueNotWorse": "int64",
+    "DebtRatio": "float64",
+    "MonthlyIncome": "float64",
+    "NumberOfOpenCreditLinesAndLoans": "int64",
+    "NumberOfTimes90DaysLate": "int64",
+    "NumberRealEstateLoansOrLines": "int64",
+    "NumberOfTime60-89DaysPastDueNotWorse": "int64",
+    "NumberOfDependents": "float64"
+  },
+  "class_counts": {
+    "0": 139974,
+    "1": 10026
+  },
+  "positive_rate": 0.06684,
+  "missing_counts": {
+    "RevolvingUtilizationOfUnsecuredLines": 0,
+    "age": 0,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0,
+    "DebtRatio": 0,
+    "MonthlyIncome": 29731,
+    "NumberOfOpenCreditLinesAndLoans": 0,
+    "NumberOfTimes90DaysLate": 0,
+    "NumberRealEstateLoansOrLines": 0,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0,
+    "NumberOfDependents": 3924
+  },
+  "missing_percent": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.0,
+    "age": 0.0,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0.0,
+    "DebtRatio": 0.0,
+    "MonthlyIncome": 19.820666666666668,
+    "NumberOfOpenCreditLinesAndLoans": 0.0,
+    "NumberOfTimes90DaysLate": 0.0,
+    "NumberRealEstateLoansOrLines": 0.0,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0.0,
+    "NumberOfDependents": 2.616
+  },
+  "exact_duplicate_rows_excluding_id_beyond_first": 609,
+  "unique_raw_profiles": 149354,
+  "repeated_raw_profile_groups": 354,
+  "rows_in_repeated_raw_profiles": 1000,
+  "raw_profiles_with_conflicting_labels": 37,
+  "unique_cleaned_profiles": 149354,
+  "nonpositive_age_set_missing": 1,
+  "age_above_100_retained": 13,
+  "utilization_above_one_retained": 3321,
+  "debt_ratio_above_one_retained": 35137,
+  "delinquency_counts_at_least_90_retained": {
+    "NumberOfTime30-59DaysPastDueNotWorse": {
+      "96": 5,
+      "98": 264
+    },
+    "NumberOfTimes90DaysLate": {
+      "96": 5,
+      "98": 264
+    },
+    "NumberOfTime60-89DaysPastDueNotWorse": {
+      "96": 5,
+      "98": 264
+    }
+  },
+  "numeric_summary": {
+    "RevolvingUtilizationOfUnsecuredLines": {
+      "count": 150000.0,
+      "mean": 6.048438054666888,
+      "std": 249.75537062544024,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.154180737,
+      "99%": 1.0929557681400022,
+      "max": 50708.0
+    },
+    "age": {
+      "count": 150000.0,
+      "mean": 52.295206666666665,
+      "std": 14.771865863100349,
+      "min": 0.0,
+      "1%": 24.0,
+      "50%": 52.0,
+      "99%": 87.0,
+      "max": 109.0
+    },
+    "NumberOfTime30-59DaysPastDueNotWorse": {
+      "count": 150000.0,
+      "mean": 0.4210333333333333,
+      "std": 4.192781272018315,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.0,
+      "99%": 4.0,
+      "max": 98.0
+    },
+    "DebtRatio": {
+      "count": 150000.0,
+      "mean": 353.00507576386985,
+      "std": 2037.81852314437,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.366507841,
+      "99%": 4979.040000000037,
+      "max": 329664.0
+    },
+    "MonthlyIncome": {
+      "count": 120269.0,
+      "mean": 6670.221237392844,
+      "std": 14384.674215282135,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 5400.0,
+      "99%": 25000.0,
+      "max": 3008750.0
+    },
+    "NumberOfOpenCreditLinesAndLoans": {
+      "count": 150000.0,
+      "mean": 8.45276,
+      "std": 5.145950989643273,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 8.0,
+      "99%": 24.0,
+      "max": 58.0
+    },
+    "NumberOfTimes90DaysLate": {
+      "count": 150000.0,
+      "mean": 0.26597333333333334,
+      "std": 4.169303787594445,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.0,
+      "99%": 3.0,
+      "max": 98.0
+    },
+    "NumberRealEstateLoansOrLines": {
+      "count": 150000.0,
+      "mean": 1.01824,
+      "std": 1.1297709848828605,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 1.0,
+      "99%": 4.0,
+      "max": 54.0
+    },
+    "NumberOfTime60-89DaysPastDueNotWorse": {
+      "count": 150000.0,
+      "mean": 0.24038666666666667,
+      "std": 4.1551794209872215,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.0,
+      "99%": 2.0,
+      "max": 98.0
+    },
+    "NumberOfDependents": {
+      "count": 146076.0,
+      "mean": 0.7572222678605657,
+      "std": 1.1150860714871407,
+      "min": 0.0,
+      "1%": 0.0,
+      "50%": 0.0,
+      "99%": 4.0,
+      "max": 20.0
+    }
+  },
+  "policy": "Retain rows and extremes. Set age <= 0 missing; training-median imputation. No clipping, scaling, or feature selection.",
+  "competition_test_rows": 101503,
+  "competition_test_labelled_rows": 0,
+  "post_imputation_profiles_shared_across_partitions": 55
+}
